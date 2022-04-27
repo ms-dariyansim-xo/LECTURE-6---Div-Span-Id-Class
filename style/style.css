@@ -21,12 +21,39 @@ div{
     font-family:fantasy;
     background-color: burlywood;
     border: 5px dotted black;
-    width: 50%;
+    width: 200%;
 
 }
 
 /*Using ID (refer to div ID="blog-post" on index)*/
 #blog-post{
     background-color: brown;
-    width: 75%;
+    width: 50%;
+    
+}
+
+#navigation{
+    height: 50px;
+
+}
+
+/*Using CLASS as only one ID named element per page.*/
+.navButton{
+    color: white;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    background-color: plum;
+    border: 10px dotted green;
+    margin: 5px;
+}
+
+#chess-image{
+   height: 250px;px;
+   border: 1px solid red;
+
+}
+
+.chessimage-image{
+    width: 20%;
 }
